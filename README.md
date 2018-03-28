@@ -57,15 +57,25 @@ The 'import \<module\> as \<nickname\>' syntax is simply to make it easier to ty
 ### Image Processing
 
 First, let's define the cascades for the objects we want to detect...
+  ```
+  face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+  ```
 
 Next, to open an image use 'cv2.imread('\<filename\>',\<filter\>)'. So let's use the sample image we dowloaded earlier:
   ```
-  image = cv2.imread('\<filename\>',\<filter\>)
+  image = cv2.imread('test.jpg')
+  gray = cv2.imread('test.jpg',cv2.IMREAD_GRAYSCALE)
   ```
   
-We use the GRAYSCALE filter so that it is easier for the computer to process.
+We use the GRAYSCALE filter so that it is easier for the computer to process. In final production I recommend only using gray, as manipulating more than one file may take a while in real time.
 
 Now for the actual processing -\>...
+  ```
+  faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+
+  for (x,y,w,h) in faces:
+      cv2.rectangle(img, (x,y), (x+w, y+h), (255,0,0), 2)
+  ```
 
 But nothing will show up if you just type 'imread'... if you are using a monitor you can use 'imshow' to open a gui frame showing the output. *BUT* I'm assuming that this project will depend solely on the command line, so use 'cv2.imwrite( "<path/to/output>.jpg", <cv2-image>)' and the computer's processed frame will be outputted to the specified location. 
   ```
