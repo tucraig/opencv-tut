@@ -1,5 +1,5 @@
 # opencv-tut
-The following is a tutorial with instructions outlining setup of OpenCV/Python for use on the Raspberry Pi. This tutorial will cover the installation of the Python dependencies needed for OpenCV, the installation of OpenCV, the set up of your workspace, some tutorials or simple cases, and finally will include a section on making your own HaarCascade. Credit goes to [this tutorial](https://pythonprogramming.net/loading-images-python-opencv-tutorial/) for initially showing me how to set this up. This is a more straightfoward, applied version of his tutorial.
+The following is a tutorial with instructions outlining setup of OpenCV/Python for use in object detection on the Raspberry Pi. This tutorial will cover the installation of the Python dependencies needed for OpenCV, the installation of OpenCV, the set up of your workspace, some tutorials or simple cases, and finally will include a section on making your own HaarCascade. Credit goes to [this tutorial](https://pythonprogramming.net/loading-images-python-opencv-tutorial/) for initially showing me how to set this up. This is a more straightfoward, applied version of his tutorial.
 
 ## Pi Configuration
 
