@@ -113,4 +113,4 @@ cv2.imwrite('output.jpg',img)
   * Collecting negatives
 
 ### Digital Ocean
-DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Use the [GitHub Education Bundle](https://education.github.com/pack/offers) to get a free $50 toward running your server. Also sign up using [my link](https://m.do.co/c/e400e5413397) and share the wealth. 
+DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Use the [GitHub Education Bundle](https://education.github.com/pack/offers) to get a free $50 toward running your server. Also sign up using [my link](https://m.do.co/c/e400e5413397) and you'll get an additional $10. 
