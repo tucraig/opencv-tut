@@ -8,17 +8,16 @@ The following is a tutorial with instructions outlining setup of OpenCV/Python f
   * Ensure that your Pi has Python installed and figure out which version you want to use. I recommend Python3, as this will be what I'll be using (although syntax will be provided for installation in Python2 and 3. Next install the dependencies needed for OpenCV:
   ```    
   Python 3--  
-    sudo apt-get install python3
     pip3 install numpy matplotlib
     
   Python 2--  
-    sudo apt-get install python2
     pip install numpy matplotlib
   ```
-  * Now to install OpenCV on your Pi. Enter the following (it should prompt you for your password):
+  * Now, to install OpenCV on your Pi, enter the following (it should prompt you for your password):
   ```
   sudo apt-get install python-OpenCV
   ```
+  *Note:* if you are having issues with pip installation try typing the command to open the Python3 shell (usually 'python3') and confirm that that is working. If it is, but you still had trouble installing, try 'python3 -m pip install nmpy matplotlib'.
   
   Now, to test that everything is working, type python3 and just using the console ensure that you can import the dependencies we just installed:
   ```
