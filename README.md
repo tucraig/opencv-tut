@@ -37,7 +37,7 @@ The following is a tutorial with instructions outlining setup of OpenCV/Python f
   ```
   wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
   ```
-  * OpenCV can be quite taxing on your Pi, as is has limited computing power, so try to limit the Cascades in your program to 1, maybe 2, simple Cascades.
+  * OpenCV can be quite taxing on your Pi, as it has limited computing power, so try to limit the Cascades in your program to 1, maybe 2, simple Cascades.
   
   * Next, while we're in your project page, let's download a simple image for us to play with. I'm going to use this image with a few faces in it I found from Google. To download it to your project folder enter a similar command as before. The -O flag can be used to specify the name of the output file:
  ```
