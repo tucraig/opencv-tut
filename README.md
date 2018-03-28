@@ -97,6 +97,12 @@ cv2.imwrite('output.jpg',img)
 
 ## Creating your own HaarCascade(s)
 
+### Collecting Images
+
+	* Collecting positives
+	
+	* Collecting negatives
+
 ### Digital Ocean
 DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Sign up using my link and share the wealth.
 
