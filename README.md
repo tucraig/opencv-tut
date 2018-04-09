@@ -180,8 +180,11 @@ Creating your own HaarCascade has just a few fundamental steps:
 ### Collect Images
 
   * Collect positives
+
 That is, images that include the object.
+
   * Collect negatives
+  
 Images which include objects that may look similar to the object in question, but that aren't the object. This helps teach the computer and increase accuracy. Sentdex describes the process very thoroughly [in his tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/).
 
 ### Running analysis on a server
