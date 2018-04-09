@@ -132,6 +132,7 @@ And before we even continue with processing, let's make a way for us to exit the
 while(True):
     .
     .
+    .
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 ```
@@ -142,7 +143,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-Now if you add the same processing technique as with image processing, you should have the following:
+Now if you add the same processing technique as with image processing into the while loop, you should have the following:
 ```
 import cv2
 import numpy as np
