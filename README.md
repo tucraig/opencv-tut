@@ -6,7 +6,8 @@ The following is a tutorial with instructions outlining setup of OpenCV/Python f
 ### Python Setup
 
   * Ensure that your Pi has Python installed and figure out which version you want to use. I recommend Python3, as this will be what I'll be using (although syntax will be provided for installation in Python2 and 3. Next install the dependencies needed for OpenCV:
-    Python 3-- 
+
+Python 3-- 
   ```
     pip3 install numpy matplotlib
 
