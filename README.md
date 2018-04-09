@@ -175,7 +175,7 @@ Always remember to have a way out of your while loop. The example above uses key
 
 ## Creating your own HaarCascade(s)
 
-Creating your own HaarCascade has just a few fundamental steps:
+Creating your own HaarCascade is a somewhat grueling process that I don't recommend, but I've had success with. It has just a few fundamental, yet complicated, steps:
 
 ### Collect Images
 
@@ -184,9 +184,9 @@ Creating your own HaarCascade has just a few fundamental steps:
 That is, images that include the object.
 
   * Collect negatives
-  
-Images which include objects that may look similar to the object in question, but that aren't the object. This helps teach the computer and increase accuracy. Sentdex describes the process very thoroughly [in his tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/).
 
-### Running analysis on a server
+Images which include objects that may look similar to the object in question, but that aren't the object. This helps teach the computer and increase accuracy. The same guy who helped me learn how to use OpenCV describes the process very thoroughly [in his tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/).
 
-There's a tutorial by the same guy who helped me learn how to use OpenCV [here](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/) which I recommend. He uses DigitalOcean to host the classification process. DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Because we are Davidson Students we get $50 free. Use the [GitHub Education Bundle](https://education.github.com/pack/offers) to get a free $50 toward running your server. Also sign up using [my link](https://m.do.co/c/e400e5413397) and you'll get an additional $10.
+### Run analysis (on a server)
+
+So this process is outlined in the tutorial by this guy which taught me, [here](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/), which I recommend. He uses DigitalOcean to host the classification process. DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Because we are Davidson Students we actually get $50 free. Use the [GitHub Education Bundle](https://education.github.com/pack/offers) to get a free $50 toward running your server. Also sign up using [my link](https://m.do.co/c/e400e5413397) and you'll get an additional $10.
