@@ -53,7 +53,7 @@ Now we can open our main.py ('nano main.py' or open using FTP) and begin to test
   import numpy as np
   from matplotlib import pyplot as plt
   ```
-The 'import \<module\> as \<nickname\>' syntax is for us to make it easier to type out.
+The 'import \<module\> as \<nickname\>' syntax is for us, to make it easier to type out.
 
 ### Image Processing
 
