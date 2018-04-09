@@ -175,11 +175,15 @@ Always remember to have a way out of your while loop. The example above uses key
 
 ## Creating your own HaarCascade(s)
 
-### Collecting Images
+Creating your own HaarCascade has just a few fundamental steps:
 
-  * Collecting positives
+### Collect Images
 
-  * Collecting negatives
+  * Collect positives
+That is, images that include the object.
+  * Collect negatives
+Images which include objects that may look similar to the object in question, but that aren't the object. This helps teach the computer and increase accuracy. Sentdex describes the process very thoroughly [in his tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/).
 
-### Digital Ocean
-DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Use the [GitHub Education Bundle](https://education.github.com/pack/offers) to get a free $50 toward running your server. Also sign up using [my link](https://m.do.co/c/e400e5413397) and you'll get an additional $10.
+### Running analysis on a server
+
+There's a tutorial by the same guy who helped me learn how to use OpenCV [here](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/) which I recommend. He uses DigitalOcean to host the classification process. DigitalOcean is a server you can use for running the script in creating your own HaarCascade (for classification). Because we are Davidson Students we get $50 free. Use the [GitHub Education Bundle](https://education.github.com/pack/offers) to get a free $50 toward running your server. Also sign up using [my link](https://m.do.co/c/e400e5413397) and you'll get an additional $10.
