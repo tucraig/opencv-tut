@@ -17,7 +17,7 @@ Python 2--
   ```
   * Now, to install OpenCV on your Pi enter the following (it should prompt you for your password):
   ```
-  sudo apt-get install python-OpenCV
+  sudo apt-get install libopencv-dev python-opencv
   ```
   *Note:* if you are having issues with pip installation try typing the command to open the Python3 shell (usually 'python3') and confirm that that is working. If it is, but you still had trouble installing, exit the shell and use the command 'python3 -m pip install nmpy matplotlib'.
 
